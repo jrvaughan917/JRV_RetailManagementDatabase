@@ -2,9 +2,9 @@
 
 Purposes:
 
-Access Microsoft SQL Server in C++
+Access Microsoft SQL Server in C++ using SQL queries
 
-Provide interface for project database
+Provide interface for database of simulated retail store
 
 Allows users different levels of access (admin, manager, and cashier).
 
