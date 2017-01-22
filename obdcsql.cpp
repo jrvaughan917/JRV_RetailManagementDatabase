@@ -839,6 +839,9 @@ int __cdecl wmain(int argc, _In_reads_(argc) WCHAR **argv)
 		//
 		while (DisplayStatus == "mainmenu")
 		{
+			ExecuteSQLQuery(hEnv, hDbc, hStmt, "SELECT * FROM Inventory LEFT OUTER JOIN Item ON Inventory.SKU = Item.SKU"); // this ensures the columns line up correctly; they are misaligned on the first SQL query so they will align after this.
+			system("cls");
+
 			cout << endl;
 			cout << "  MAIN MENU:" << endl << endl << endl;
 
