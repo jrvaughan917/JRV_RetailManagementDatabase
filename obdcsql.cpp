@@ -749,7 +749,7 @@ int __cdecl wmain(int argc, _In_reads_(argc) WCHAR **argv)
 	{
 		cout << endl;
 		cout << "  RETAIL MERCHANDISE MANAGEMENT DATABASE" << endl << endl << endl;
-		cout << "  James Vaughan and Keith Robinson" << endl << endl << endl;
+		cout << "  By James Vaughan" << endl << endl << endl;
 		cout << "  Username: >> ";
 		cin >> DBUsername;
 		cin.clear();
