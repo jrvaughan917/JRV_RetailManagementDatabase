@@ -1,4 +1,4 @@
-# MSSQL-Database-Program
+# JRV_RetailManagementDatabase
 
 Purposes:
 
